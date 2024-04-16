@@ -1,4 +1,6 @@
-# Mini-llm
+# infini-mini-transformer
+
+![封面图](./assets/fengmian.png)
 Created by Lil2J
 ## 📝介绍
 本项目是我个人关于谷歌论文：[Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/pdf/2404.07143.pdf)的复现项目。
