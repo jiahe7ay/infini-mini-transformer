@@ -46,3 +46,5 @@ Once installed, replace the files modeling_gemma.py and configuration_gemma.py i
 Before starting training, review the parameters in train.sh to ensure correctness. Then run sh train.sh to start training.
 
 ![Training Screenshot](./assets/training.png)
+
+![loss截图](./assets/loss.png)

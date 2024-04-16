@@ -48,6 +48,7 @@ Created by Lil2J
 启动训练前可以去train.sh中看一眼参数，确认无误后。运行sh train.sh即可启动训练
 
 ![训练截图](./assets/training.png)
+![loss截图](./assets/loss.png)
 
 ## 其他
 有什么问题和想一起搞大模型的可以加wx:ForeverM1LAn 进行交流
