@@ -49,6 +49,9 @@ Created by Lil2J
 
 ![训练截图](./assets/training.png)
 
+## 其他
+有什么问题和想一起搞大模型的可以加wx:ForeverM1LAn 进行交流
+
 
 
 
