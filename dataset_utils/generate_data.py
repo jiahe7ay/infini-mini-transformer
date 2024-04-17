@@ -48,8 +48,8 @@ def gen_wiki_filter(origin_file, output_file="../train_datasets/wiki_fi.parquet"
     lines = []
     with open(origin_file, "r", encoding="utf-8") as f:
         items = ujson.load(f)
-       # for item in items:
-        lines.append(items["completion"] + "<|endoftext|>")
+        for item in items:
+            lines.append(items["completion"] + "<|endoftext|>")
     chunk_data = split_txt_cropus_to_chunk_data(lines)
     tb = pa.Table.from_arrays([pa.array(chunk_data)], names=["text"])
     pq.write_table(
