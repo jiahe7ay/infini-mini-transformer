@@ -4,3 +4,5 @@ torch==2.0.0
 accelerate==0.29.2
 tiktoken
 einops
+ujson==5.9.0
+rich==13.7.1
